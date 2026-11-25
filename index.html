@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HafzDev | Developer</title>
+    <meta name="description" content="Portofolio Fajri Hafiz (HafzDev), pelajar SMK RPL yang berfokus pada Web Development, IoT, dan Cybersecurity. Lihat proyek, desain, dan pengalaman saya." />
+    <meta name="keywords" content="HafzDev,Fajri Hafiz,Portofolio,Web Developer,IoT,Next.js,SMK RPL" />
+    <meta property="og:title" content="HafzDev | Developer" />
+    <meta property="og:description" content="Portofolio Fajri Hafiz. Menjelajahi dunia web, IoT, dan keamanan siber." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HafzDev | Developer" />
+    <meta name="twitter:description" content="Portofolio Fajri Hafiz. Menjelajahi dunia web, IoT, dan keamanan siber." />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem('theme') || 'dark';
+          var root = document.documentElement;
+          root.classList.remove('light', 'dark');
+          root.classList.add(theme);
+          root.style.colorScheme = theme;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
